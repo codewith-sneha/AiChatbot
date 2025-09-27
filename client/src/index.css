@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark,.dark *));
+
+*{
+    font-family: "Libre Baskerville", serif;
+}
+
+@theme{
+ --color-primary :#E6CCFF; 
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
