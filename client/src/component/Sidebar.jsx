@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useAppContext } from '../context/AppContext'
 import { assets } from '../assets/assets';
 import SupportComponent from './SupportComponent';
@@ -21,7 +21,7 @@ const Sidebar = ({isMenuOpen,setIsMenuOpen}) => {
         {/* logo */}
         <div className='flex justify-between'>
         <div className='flex gap-3 items-center '>
-            <img src={assets.Gptlogo}  alt="" className='w-full max-w-18'/>
+            <img src={assets.Gptlogo}  alt="" className='w-full max-w-18 '/>
            <p className='text-3xl '>GPTify</p>
           
         </div>
