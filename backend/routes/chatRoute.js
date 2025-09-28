@@ -5,7 +5,7 @@ const chatRouter = express.Router();
 
 chatRouter.use(protect);
 
-chatRouter.post('/',createChat);
+chatRouter.post('/create',createChat);
 
 chatRouter.get('/',getChats);
 
