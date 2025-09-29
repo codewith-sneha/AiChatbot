@@ -97,7 +97,7 @@ const Sidebar = ({ isMenuOpen, setIsMenuOpen }) => {
         <div className='flex items-center p-3 border border-gray-300 dark:border-gray-800 dark:bg-gray-900 rounded-md gap-2 group'>
           <img className='w-7 rounded-full' src={assets.user_icon} alt="userIcon" />
           <p className='flex-1 text-sm dark:text-primary truncate'>{user ? user.name : "Login to your account"}</p>
-          {user && <img src={assets.logout_icon} onClick={logOut} className='h-5 cursor-pointer hidden group-hover:block not-dark:invert' />}
+          {user && <img src={assets.logout_icon} onClick={logOut} className='h-5 cursor-pointer not-dark:invert' />}
         </div>
       </div>
 
